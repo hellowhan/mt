@@ -1,5 +1,5 @@
 import axios from 'axios'
-axios.defaults.baseURL = 'http://open.duyiedu.com';
+axios.defaults.baseURL = 'https://open.duyiedu.com';
 axios.interceptors.request.use(function(config) {
     //在发送请求之前做些什么
 
